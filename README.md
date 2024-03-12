@@ -1,2 +1,3 @@
 # ASM2464PD-test
- Messing around with ASM2464PD symbol and footprint
+ I found some sussy data online and made a kicad version of the ASM2464PD footprint and symbol.  
+ Maybe it's useful for someone.
