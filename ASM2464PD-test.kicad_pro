@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -55,7 +55,7 @@
           "width": 0.0
         },
         {
-          "gap": 0.2,
+          "gap": 0.13,
           "via_gap": 0.0,
           "width": 0.1
         }
@@ -186,6 +186,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.4
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.5
         }
       ],
       "zones_allow_external_fillets": false
@@ -420,7 +428,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.08,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
