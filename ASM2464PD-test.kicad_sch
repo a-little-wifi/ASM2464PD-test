@@ -4,6 +4,11 @@
 
   (paper "A3")
 
+  (title_block
+    (title "ASM2464PD-test")
+    (company "WifiCable")
+  )
+
   (lib_symbols
     (symbol "A_my_stuff:ASM2464PD" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 0 0)
