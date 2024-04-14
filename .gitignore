@@ -32,3 +32,5 @@ fp-info-cache
 # Kicad lock files
 *.kicad_pcb.lck
 *.kicad_sch.lck
+
+*.round-tracks-config
