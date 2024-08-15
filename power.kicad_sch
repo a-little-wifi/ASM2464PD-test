@@ -2,8 +2,8 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "568cc404-1024-496a-8e80-cde14a48a7b9")
-	(paper "A4")
+	(uuid "d8b72c91-15ff-4513-bbbc-3f087d6e3d04")
+	(paper "A3")
 	(lib_symbols
 		(symbol "Device:R_Small"
 			(pin_numbers hide)
@@ -247,6 +247,126 @@
 				)
 			)
 		)
+		(symbol "power:+3.3VA"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3VA"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3VA_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3VA_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -374,9 +494,21 @@
 		(color 0 0 0 0)
 		(uuid "4aa9a3c3-f61e-4ad7-94c1-614bb9800e36")
 	)
+	(junction
+		(at 116.84 224.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52b12a27-ce6b-43b6-be8a-8945cd47ad5a")
+	)
+	(junction
+		(at 130.81 224.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a1d53f8-7061-4210-9e45-719e63d2d604")
+	)
 	(wire
 		(pts
-			(xy 120.65 124.46) (xy 120.65 130.81)
+			(xy 116.84 218.44) (xy 116.84 224.79)
 		)
 		(stroke
 			(width 0)
@@ -406,6 +538,56 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 77.47) (xy 208.28 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28c2c080-6290-4cab-866c-1573198500ff")
+	)
+	(wire
+		(pts
+			(xy 138.43 215.9) (xy 138.43 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32c34a5b-59c3-4db7-a684-f8ff859dc0f6")
+	)
+	(wire
+		(pts
+			(xy 293.37 73.66) (xy 293.37 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38790ef7-c2ca-48d1-8cc2-70461b556f74")
+	)
+	(wire
+		(pts
+			(xy 124.46 138.43) (xy 124.46 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "391fbd01-14d0-4300-ade1-c53e5651ee5a")
+	)
+	(wire
+		(pts
+			(xy 26.67 142.24) (xy 39.37 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48ac6478-41c7-4f61-815a-5dcc0e221b3f")
+	)
+	(wire
+		(pts
 			(xy 27.94 69.85) (xy 40.64 69.85)
 		)
 		(stroke
@@ -426,7 +608,27 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 124.46) (xy 27.94 130.81)
+			(xy 130.81 215.9) (xy 130.81 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5316f80a-3269-4c22-91ed-70d3ba48ecd4")
+	)
+	(wire
+		(pts
+			(xy 130.81 224.79) (xy 138.43 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53b05372-8d75-47e0-81ee-761226dc0855")
+	)
+	(wire
+		(pts
+			(xy 24.13 218.44) (xy 24.13 224.79)
 		)
 		(stroke
 			(width 0)
@@ -443,6 +645,16 @@
 			(type default)
 		)
 		(uuid "696ba7ee-a974-46fb-9a37-593650111b70")
+	)
+	(wire
+		(pts
+			(xy 138.43 223.52) (xy 138.43 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ebf1fb1-77a2-4e74-ab0e-14f2947b2e51")
 	)
 	(wire
 		(pts
@@ -476,13 +688,53 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 130.81) (xy 40.64 130.81)
+			(xy 110.49 142.24) (xy 124.46 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a38779a2-08b7-44f1-b0fa-8f6cf96220bd")
+	)
+	(wire
+		(pts
+			(xy 24.13 224.79) (xy 36.83 224.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a780b4b8-b64f-4cb9-9b6f-f88bd7e02066")
+	)
+	(wire
+		(pts
+			(xy 116.84 224.79) (xy 130.81 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9bbfd1c-ea28-49e5-8ab9-0bbb215ad472")
+	)
+	(wire
+		(pts
+			(xy 279.4 77.47) (xy 293.37 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b158511a-44f1-4494-a7bd-c9be6433ee02")
+	)
+	(wire
+		(pts
+			(xy 195.58 71.12) (xy 195.58 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6c410fe-203f-40e4-865e-48efde748bce")
 	)
 	(wire
 		(pts
@@ -496,13 +748,23 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 130.81) (xy 120.65 130.81)
+			(xy 107.95 224.79) (xy 116.84 224.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b73b6fd1-17dc-41d5-b203-8df3ae92d0f3")
+	)
+	(wire
+		(pts
+			(xy 130.81 223.52) (xy 130.81 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e896e01c-dc63-411f-9af9-b04cfea7ff12")
 	)
 	(wire
 		(pts
@@ -516,6 +778,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 135.89) (xy 26.67 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe32b2f6-e591-440f-a526-af35ba6fa273")
+	)
+	(wire
+		(pts
 			(xy 49.53 20.32) (xy 54.61 20.32)
 		)
 		(stroke
@@ -524,7 +796,49 @@
 		)
 		(uuid "fe6a89a9-7838-47ec-88dd-0f256d2919b8")
 	)
-	(text_box "insert 5V to 3.3V switching regulator here"
+	(text_box "insert 5V to 1.13V switching regulator here\n3A\n(VDD/core)"
+		(exclude_from_sim no)
+		(at 39.37 123.19 0)
+		(size 71.12 38.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "0ba4e349-f0f8-407b-9484-682df706c5ff")
+	)
+	(text_box "insert 5V to 1.9V switching regulator here\n2A\n(VCCL)"
+		(exclude_from_sim no)
+		(at 208.28 58.42 0)
+		(size 71.12 38.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "1127c8f8-bc76-4e8d-a1ab-a1dc5e942a01")
+	)
+	(text_box "insert 5V to 3.3V switching regulator here\n4A\n(SSD)\n"
 		(exclude_from_sim no)
 		(at 40.64 57.15 0)
 		(size 71.12 38.1)
@@ -545,9 +859,9 @@
 		)
 		(uuid "30dc362a-bfdc-43da-8f85-08424c3d6618")
 	)
-	(text_box "insert 5V to 3.3V linear regulator here"
+	(text_box "insert 5V to 3.3V linear regulator here\n(VCCH/SYS)"
 		(exclude_from_sim no)
-		(at 40.64 111.76 0)
+		(at 36.83 205.74 0)
 		(size 71.12 38.1)
 		(stroke
 			(width 0)
@@ -568,7 +882,7 @@
 	)
 	(text "TODO:\n\nseparate ssd and asm 3.3V rails"
 		(exclude_from_sim no)
-		(at 135.89 78.74 0)
+		(at 74.93 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -685,6 +999,71 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 138.43 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13f11528-72bb-4e99-9cd9-f36a0e38c5df")
+		(property "Reference" "#PWR043"
+			(at 138.43 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 138.43 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 138.43 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3253e9e4-4cae-4fbb-8d38-a1882b9c8ba3")
+		)
+		(instances
+			(project "ASM2464PD-test"
+				(path "/b2a945ac-f788-482b-9831-47d865c602eb/925879bc-4cbd-4ed0-8b1e-92f804aaa7cd"
+					(reference "#PWR043")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -821,6 +1200,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 138.43 220.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a8b0d0b-933c-4cc1-bde9-aec7aa77038a")
+		(property "Reference" "R40"
+			(at 135.89 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 140.97 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 138.43 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 138.43 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e98bb3e-cd18-4ebc-ba67-292c047f3ce5")
+		)
+		(pin "2"
+			(uuid "45c523a8-13b2-43c6-9b5a-e869633c7751")
+		)
+		(instances
+			(project "ASM2464PD-test"
+				(path "/b2a945ac-f788-482b-9831-47d865c602eb/925879bc-4cbd-4ed0-8b1e-92f804aaa7cd"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 27.94 64.77 0)
 		(unit 1)
@@ -880,6 +1326,71 @@
 			(project "ASM2464PD-test"
 				(path "/b2a945ac-f788-482b-9831-47d865c602eb/925879bc-4cbd-4ed0-8b1e-92f804aaa7cd"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 293.37 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56b86e09-5ddb-46dc-ac01-c154444a1484")
+		(property "Reference" "#PWR040"
+			(at 293.37 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1.9V"
+			(at 293.37 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 293.37 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 293.37 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 293.37 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14d33f37-4d74-48ce-850f-61f96ed394bc")
+		)
+		(instances
+			(project "ASM2464PD-test"
+				(path "/b2a945ac-f788-482b-9831-47d865c602eb/925879bc-4cbd-4ed0-8b1e-92f804aaa7cd"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -954,15 +1465,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 120.65 124.46 0)
+		(at 130.81 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8d5ddc81-84e2-4f86-b68e-3a132be2d694")
-		(property "Reference" "#PWR036"
-			(at 120.65 128.27 0)
+		(uuid "748138d9-6c35-4f2c-87b8-1cc67d98f6ef")
+		(property "Reference" "#PWR042"
+			(at 130.81 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -970,8 +1481,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_LDO"
-			(at 120.65 120.65 0)
+		(property "Value" "+3.3V"
+			(at 130.81 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -979,7 +1490,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 124.46 0)
+			(at 130.81 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -988,7 +1499,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 124.46 0)
+			(at 130.81 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -997,7 +1508,72 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 120.65 124.46 0)
+			(at 130.81 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80530356-a3db-451b-a31d-6f63b73fc7b9")
+		)
+		(instances
+			(project "ASM2464PD-test"
+				(path "/b2a945ac-f788-482b-9831-47d865c602eb/925879bc-4cbd-4ed0-8b1e-92f804aaa7cd"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 116.84 218.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d5ddc81-84e2-4f86-b68e-3a132be2d694")
+		(property "Reference" "#PWR036"
+			(at 116.84 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V_SYS"
+			(at 116.84 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 116.84 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1019,15 +1595,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 27.94 124.46 0)
+		(at 195.58 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9b4dabdb-6249-4704-ad03-3a65fa581b9b")
-		(property "Reference" "#PWR035"
-			(at 27.94 128.27 0)
+		(uuid "8ebde8a9-8187-4f93-bc6d-065fd6a04c10")
+		(property "Reference" "#PWR038"
+			(at 195.58 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1036,7 +1612,7 @@
 			)
 		)
 		(property "Value" "+5V_VBUS"
-			(at 27.94 120.65 0)
+			(at 195.58 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1044,7 +1620,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 124.46 0)
+			(at 195.58 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1053,7 +1629,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 124.46 0)
+			(at 195.58 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1062,7 +1638,204 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 27.94 124.46 0)
+			(at 195.58 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67f22600-73b8-4512-b4b3-8dca3c9c5824")
+		)
+		(instances
+			(project "ASM2464PD-test"
+				(path "/b2a945ac-f788-482b-9831-47d865c602eb/925879bc-4cbd-4ed0-8b1e-92f804aaa7cd"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 130.81 220.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "953c822d-8c08-49c1-909b-7b3601396961")
+		(property "Reference" "R39"
+			(at 128.27 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 133.35 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 130.81 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 130.81 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd5f5780-81b6-4251-a75b-4f231e04dada")
+		)
+		(pin "2"
+			(uuid "83972765-b1aa-485e-bcc8-895bf4068108")
+		)
+		(instances
+			(project "ASM2464PD-test"
+				(path "/b2a945ac-f788-482b-9831-47d865c602eb/925879bc-4cbd-4ed0-8b1e-92f804aaa7cd"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 26.67 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97753a26-3610-425d-94c6-7cb114c6e087")
+		(property "Reference" "#PWR037"
+			(at 26.67 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_VBUS"
+			(at 26.67 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 26.67 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e366a9d6-b52d-4238-bb77-e7d569199367")
+		)
+		(instances
+			(project "ASM2464PD-test"
+				(path "/b2a945ac-f788-482b-9831-47d865c602eb/925879bc-4cbd-4ed0-8b1e-92f804aaa7cd"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 24.13 218.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b4dabdb-6249-4704-ad03-3a65fa581b9b")
+		(property "Reference" "#PWR035"
+			(at 24.13 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_VBUS"
+			(at 24.13 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 24.13 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1077,6 +1850,71 @@
 			(project "ASM2464PD-test"
 				(path "/b2a945ac-f788-482b-9831-47d865c602eb/925879bc-4cbd-4ed0-8b1e-92f804aaa7cd"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 124.46 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3da2f05-7720-4a74-b797-ab83ac20efb7")
+		(property "Reference" "#PWR039"
+			(at 124.46 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1.13V"
+			(at 124.46 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 124.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf0b8d12-2001-4190-b4b4-ceaca4b761ba")
+		)
+		(instances
+			(project "ASM2464PD-test"
+				(path "/b2a945ac-f788-482b-9831-47d865c602eb/925879bc-4cbd-4ed0-8b1e-92f804aaa7cd"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)

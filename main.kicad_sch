@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "63f8c97f-da34-46b5-ae94-5f0da4387439")
+	(uuid "e1183604-af92-4221-a96e-b577777d7719")
 	(paper "A2")
 	(lib_symbols
 		(symbol "ASM2464PD_1"
@@ -37853,6 +37853,16 @@
 	)
 	(wire
 		(pts
+			(xy 481.33 55.88) (xy 481.33 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5684a8b7-4d83-494f-ab26-9d7984412507")
+	)
+	(wire
+		(pts
 			(xy 217.17 167.64) (xy 217.17 170.18)
 		)
 		(stroke
@@ -53845,6 +53855,71 @@
 				(path "/b2a945ac-f788-482b-9831-47d865c602eb/12c26485-ec0e-483e-81eb-3c9eea5d2424"
 					(reference "U1")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 481.33 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2411e08-fbe9-4b58-a58a-f4e5e45cbe79")
+		(property "Reference" "#PWR041"
+			(at 481.33 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V_SSD"
+			(at 481.33 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 481.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 481.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 481.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72c58969-1a17-40d1-9f01-1187f708acd2")
+		)
+		(instances
+			(project "ASM2464PD-test"
+				(path "/b2a945ac-f788-482b-9831-47d865c602eb/12c26485-ec0e-483e-81eb-3c9eea5d2424"
+					(reference "#PWR041")
+					(unit 1)
 				)
 			)
 		)
