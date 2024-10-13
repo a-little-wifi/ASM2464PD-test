@@ -42280,6 +42280,17 @@
 		)
 		(uuid "20ab5bec-6662-4bdc-8e8c-811f6c32e9d5")
 	)
+	(text "TODO:\n[ ] UART header 3V3 GND TX RX\n[ ] I2C header 3V3 GND CLK DATA\n[ ] SPI header with SPI flash pinout\n[ ] Jumper/button for SPI /HOLD\n[ ] Jumper/button for ASM RST#"
+		(exclude_from_sim no)
+		(at 411.48 278.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "904ed21b-be5f-4467-bf9a-e3e7eae3d51e")
+	)
 	(text "Device LED"
 		(exclude_from_sim no)
 		(at 39.37 49.53 0)
