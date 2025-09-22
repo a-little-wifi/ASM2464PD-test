@@ -1,14 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "d8b72c91-15ff-4513-bbbc-3f087d6e3d04")
 	(paper "A3")
 	(lib_symbols
 		(symbol "Device:R_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -126,12 +130,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3.3V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -203,7 +212,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -215,7 +224,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -246,12 +255,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3.3VA"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -323,7 +337,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -335,7 +349,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -366,12 +380,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -443,7 +462,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -455,7 +474,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -486,7 +505,108 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "TODO:\n\nseparate ssd and asm 3.3V rails"
+		(exclude_from_sim no)
+		(at 74.93 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "57312162-fc2e-4f6d-8742-dbbd160301b5")
+	)
+	(text_box "insert 5V to 1.13V switching regulator here\n3A\n(VDD/core)"
+		(exclude_from_sim no)
+		(at 39.37 123.19 0)
+		(size 71.12 38.1)
+		(margins 1.4288 1.4288 1.4288 1.4288)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "0ba4e349-f0f8-407b-9484-682df706c5ff")
+	)
+	(text_box "insert 5V to 1.9V switching regulator here\n2A\n(VCCL)"
+		(exclude_from_sim no)
+		(at 208.28 58.42 0)
+		(size 71.12 38.1)
+		(margins 1.4288 1.4288 1.4288 1.4288)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "1127c8f8-bc76-4e8d-a1ab-a1dc5e942a01")
+	)
+	(text_box "insert 5V to 3.3V switching regulator here\n4A\n(SSD)\n"
+		(exclude_from_sim no)
+		(at 40.64 57.15 0)
+		(size 71.12 38.1)
+		(margins 1.4288 1.4288 1.4288 1.4288)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "30dc362a-bfdc-43da-8f85-08424c3d6618")
+	)
+	(text_box "insert 5V to 3.3V linear regulator here\n(VCCH/SYS)"
+		(exclude_from_sim no)
+		(at 36.83 205.74 0)
+		(size 71.12 38.1)
+		(margins 1.4288 1.4288 1.4288 1.4288)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "393fbbcb-aaff-494f-8180-39a2c7e30aef")
 	)
 	(junction
 		(at 40.64 20.32)
@@ -795,102 +915,6 @@
 			(type default)
 		)
 		(uuid "fe6a89a9-7838-47ec-88dd-0f256d2919b8")
-	)
-	(text_box "insert 5V to 1.13V switching regulator here\n3A\n(VDD/core)"
-		(exclude_from_sim no)
-		(at 39.37 123.19 0)
-		(size 71.12 38.1)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.905 1.905)
-				(thickness 0.381)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "0ba4e349-f0f8-407b-9484-682df706c5ff")
-	)
-	(text_box "insert 5V to 1.9V switching regulator here\n2A\n(VCCL)"
-		(exclude_from_sim no)
-		(at 208.28 58.42 0)
-		(size 71.12 38.1)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.905 1.905)
-				(thickness 0.381)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "1127c8f8-bc76-4e8d-a1ab-a1dc5e942a01")
-	)
-	(text_box "insert 5V to 3.3V switching regulator here\n4A\n(SSD)\n"
-		(exclude_from_sim no)
-		(at 40.64 57.15 0)
-		(size 71.12 38.1)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.905 1.905)
-				(thickness 0.381)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "30dc362a-bfdc-43da-8f85-08424c3d6618")
-	)
-	(text_box "insert 5V to 3.3V linear regulator here\n(VCCH/SYS)"
-		(exclude_from_sim no)
-		(at 36.83 205.74 0)
-		(size 71.12 38.1)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.905 1.905)
-				(thickness 0.381)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "393fbbcb-aaff-494f-8180-39a2c7e30aef")
-	)
-	(text "TODO:\n\nseparate ssd and asm 3.3V rails"
-		(exclude_from_sim no)
-		(at 74.93 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "57312162-fc2e-4f6d-8742-dbbd160301b5")
 	)
 	(global_label "HDD_PC_EN2"
 		(shape input)
