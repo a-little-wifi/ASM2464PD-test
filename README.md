@@ -18,3 +18,5 @@ Random Chinese forum link with datasheet screenshots + bits of a reference schem
 Footprint/symbol reference: https://jlcpcb.com/partdetail/Asmedia-ASM2464PD/C7509569
 
 Detailed images of a board: https://www.reddit.com/r/UsbCHardware/comments/17tjmh4/diy_ultra_compact_usb4thunderbolt_4_ssd_enclosure/
+
+Datasheets and reference schematics: https://files.slop.gay/pub/docs/Asmedia/ASM2464PD-X/
