@@ -3,14 +3,14 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "b2a945ac-f788-482b-9831-47d865c602eb")
-	(paper "A2")
+	(paper "A4")
 	(title_block
 		(title "ASM2464PD-test")
 		(company "WifiCable")
 	)
 	(lib_symbols)
 	(sheet
-		(at 241.3 288.29)
+		(at 102.87 83.82)
 		(size 33.02 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26,7 +26,7 @@
 		)
 		(uuid "12c26485-ec0e-483e-81eb-3c9eea5d2424")
 		(property "Sheetname" "Main"
-			(at 241.3 287.5784 0)
+			(at 102.87 83.1084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35,7 +35,7 @@
 			)
 		)
 		(property "Sheetfile" "main.kicad_sch"
-			(at 241.3 319.3546 0)
+			(at 102.87 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52,7 +52,7 @@
 		)
 	)
 	(sheet
-		(at 284.48 284.48)
+		(at 146.05 80.01)
 		(size 34.29 39.37)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -68,7 +68,7 @@
 		)
 		(uuid "925879bc-4cbd-4ed0-8b1e-92f804aaa7cd")
 		(property "Sheetname" "Power"
-			(at 284.48 283.7684 0)
+			(at 146.05 79.2984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -77,7 +77,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 284.48 324.4346 0)
+			(at 146.05 119.9646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
