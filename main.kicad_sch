@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "e1183604-af92-4221-a96e-b577777d7719")
 	(paper "A3")
+	(title_block
+		(title "ASM2464PD USB, PCIe, SPI & GPIO")
+	)
 	(lib_symbols
 		(symbol "ASM2464PD_2"
 			(exclude_from_sim no)
