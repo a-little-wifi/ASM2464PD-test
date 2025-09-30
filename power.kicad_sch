@@ -22660,16 +22660,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 46.99) (xy 66.04 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1da32560-02a7-4cf9-bcb3-159094a35f64")
-	)
-	(wire
-		(pts
 			(xy 386.08 208.28) (xy 387.35 208.28)
 		)
 		(stroke
@@ -25880,16 +25870,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 46.99) (xy 76.2 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe6a89a9-7838-47ec-88dd-0f256d2919b8")
-	)
-	(wire
-		(pts
 			(xy 387.35 152.4) (xy 387.35 154.94)
 		)
 		(stroke
@@ -25908,29 +25888,7 @@
 		)
 		(uuid "fea0d096-15c1-4cf9-aecd-1065b7926a88")
 	)
-	(global_label "HDD_PC_EN1"
-		(shape input)
-		(at 76.2 46.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "47ebf737-9a09-4e39-84a0-851617a0c415")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.2199 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "HDD_PC_EN1"
+	(global_label "HDD_PC_EN"
 		(shape input)
 		(at 34.29 82.55 180)
 		(fields_autoplaced yes)
@@ -25940,31 +25898,9 @@
 			)
 			(justify right)
 		)
-		(uuid "a840ae8b-a61c-46e9-85e7-e98518816ca6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.2701 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "HDD_PC_EN"
-		(shape input)
-		(at 58.42 46.99 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
 		(uuid "eb39fafd-a952-4d69-b55d-9b31c5dfc85a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.6096 46.99 0)
+			(at 20.4796 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26099,73 +26035,6 @@
 			(project "ASM2464PD-test"
 				(path "/b2a945ac-f788-482b-9831-47d865c602eb/925879bc-4cbd-4ed0-8b1e-92f804aaa7cd"
 					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 68.58 46.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1c637716-fbb4-4073-89bc-48df45f067cd")
-		(property "Reference" "R19"
-			(at 64.77 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0Ω"
-			(at 72.39 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 68.58 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 68.58 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b8b83a53-02ae-45e6-906f-83d0ef9f3eba")
-		)
-		(pin "2"
-			(uuid "a53fa235-fd84-43dd-a3e2-cde7cc21ced2")
-		)
-		(instances
-			(project "ASM2464PD-test"
-				(path "/b2a945ac-f788-482b-9831-47d865c602eb/925879bc-4cbd-4ed0-8b1e-92f804aaa7cd"
-					(reference "R19")
 					(unit 1)
 				)
 			)
