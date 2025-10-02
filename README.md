@@ -8,9 +8,9 @@ So anyway I found some sussy data online and made a kicad version of the ASM2464
 
 Current PCB layout is only for fun, differential pairs are not impedance matched yet and there's probably various other issues lol. 
 
-<img src="PCBfront.png" width=45%/>
+<img src="PCBtopWIP.png" width=45%/>
 
-<img src="PCBback.png" width=45%/>
+<img src="PCBbottomWIP.png" width=45%/>
 
 
 Random Chinese forum link with datasheet screenshots + bits of a reference schematic: https://blog.csdn.net/weixin_54493972/article/details/127628081

@@ -924,7 +924,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C13"
-			(at 0 -1.16 0)
+			(at 1.724999 0 0)
 			(layer "F.SilkS")
 			(uuid "5f2cf1f1-9189-4f86-b7a9-e3a6a06c154d")
 			(effects
@@ -3047,7 +3047,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C14"
-			(at 0 -1.16 0)
+			(at 1.7 0 0)
 			(layer "F.SilkS")
 			(uuid "bff92f98-906c-4a6e-9b17-f7d584a9f036")
 			(effects
@@ -3246,7 +3246,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C19"
-			(at 0 -1.16 0)
+			(at -0.025001 1.9 0)
 			(layer "F.SilkS")
 			(uuid "ed262b93-d63d-4272-964a-77b49a69269e")
 			(effects
@@ -4280,7 +4280,7 @@
 		(at 169.44 98.78)
 		(descr "SMD3225/4, Crystal, 3.2x2.5mm package, SMD, generated with kicad-footprint-generator make_crystal.py, http://www.txccrystal.com/images/pdf/7m-accuracy.pdf")
 		(property "Reference" "Y1"
-			(at 2.5 0 90)
+			(at 0.01 -2.18 0)
 			(layer "F.SilkS")
 			(uuid "05a8262b-76f8-449a-8014-5bcff6916e11")
 			(effects
@@ -6083,13 +6083,13 @@
 		(descr "Through hole straight pin header, 1x06, 1.27mm pitch, single row")
 		(tags "Through hole pin header THT 1x06 1.27mm single row")
 		(property "Reference" "J9"
-			(at -0.000001 -1.745 90)
+			(at 0.000001 7.75 0)
 			(layer "F.SilkS")
 			(uuid "89090123-be21-4214-b4d5-0da02f91b32f")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -6309,8 +6309,8 @@
 			(uuid "2bb6d5e2-35bc-47b5-b802-448ae674871b")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -8026,7 +8026,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C17"
-			(at 0 -1.16 0)
+			(at 1.699999 0 0)
 			(layer "F.SilkS")
 			(uuid "d1943558-9a78-42a9-9d1d-f6536cd7e881")
 			(effects
@@ -17318,7 +17318,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C18"
-			(at 0 -1.16 0)
+			(at -0.025 1.9 0)
 			(layer "F.SilkS")
 			(uuid "efb39262-b17f-4018-af7a-64afb7e26cb4")
 			(effects
@@ -18838,7 +18838,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C12"
-			(at 0 -1.16 0)
+			(at 1.725 0 0)
 			(layer "F.SilkS")
 			(uuid "8023dc59-5809-4a07-88a5-5ae8c6bf9583")
 			(effects
@@ -19237,8 +19237,8 @@
 			(uuid "8daefab3-e91f-4eb1-b987-97227a169357")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -19388,8 +19388,8 @@
 			(uuid "fa35d751-51e7-406a-befb-c08549389de9")
 			(effects
 				(font
-					(size 0.26 0.26)
-					(thickness 0.04)
+					(size 0.6 0.6)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -19706,7 +19706,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C15"
-			(at 0 -1.16 0)
+			(at 1.699999 0 0)
 			(layer "F.SilkS")
 			(uuid "d2249978-8511-4eb3-8e1f-02a2c2ae1686")
 			(effects
@@ -20104,13 +20104,13 @@
 		(descr "Through hole straight pin header, 1x06, 1.27mm pitch, single row")
 		(tags "Through hole pin header THT 1x06 1.27mm single row")
 		(property "Reference" "J8"
-			(at -0.000001 -1.745 90)
+			(at 0.000001 7.75 0)
 			(layer "F.SilkS")
 			(uuid "60c33ff6-4302-421d-9bd8-2a905aa2587a")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -20330,8 +20330,8 @@
 			(uuid "7a80bf3e-3bba-45e5-91f4-466920738bf8")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -21009,13 +21009,13 @@
 		(descr "Through hole straight pin header, 1x06, 1.27mm pitch, single row")
 		(tags "Through hole pin header THT 1x06 1.27mm single row")
 		(property "Reference" "J7"
-			(at -0.000001 -1.745 90)
+			(at -0.000001 7.75 0)
 			(layer "F.SilkS")
 			(uuid "662f9f97-48d7-4ebc-a10f-175c6b971b82")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -21235,8 +21235,8 @@
 			(uuid "f71a4c2b-bdfd-44af-952d-f4984c5b8e98")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -21919,7 +21919,7 @@
 		(descr "USB TYPE C, RA RCPT PCB, SMT, https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401610E4%7e2A")
 		(tags "USB C Type-C Receptacle SMD")
 		(property "Reference" "J1"
-			(at 5.27 -4.96 0)
+			(at -4.55 -5.95 0)
 			(layer "F.SilkS")
 			(uuid "64762e68-39c5-425d-a7aa-afb0a90e60e6")
 			(effects
@@ -24484,7 +24484,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C16"
-			(at 0 -1.16 0)
+			(at 1.7 0 0)
 			(layer "F.SilkS")
 			(uuid "57622ff6-b3c1-4bbb-a694-b208bc43aefd")
 			(effects
@@ -25501,13 +25501,13 @@
 		(descr "Through hole straight pin header, 1x06, 1.27mm pitch, single row")
 		(tags "Through hole pin header THT 1x06 1.27mm single row")
 		(property "Reference" "J10"
-			(at -0.000001 -1.745 90)
+			(at 0.000001 8.05 0)
 			(layer "F.SilkS")
 			(uuid "81f73363-fa0e-4320-9ebb-2b7796f75978")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -25727,8 +25727,8 @@
 			(uuid "0efd3cf9-7367-42f4-8901-76ab3dab4aa6")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.1)
 				)
 			)
 		)
