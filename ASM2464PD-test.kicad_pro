@@ -567,7 +567,7 @@
       },
       {
         "netclass": "PCIe",
-        "pattern": "PCIe_*"
+        "pattern": "*PCIe_*"
       },
       {
         "netclass": "PCIe",
