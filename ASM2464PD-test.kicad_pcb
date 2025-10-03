@@ -11739,7 +11739,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Asmedia ASM2464PD USB4/TB to PCIe gen 4 x4 bridge"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11754,7 +11754,7 @@
 		(path "/12c26485-ec0e-483e-81eb-3c9eea5d2424/626f9a33-e05f-4e9f-b606-35e0b8042612")
 		(sheetname "/Main/")
 		(sheetfile "main.kicad_sch")
-		(attr through_hole)
+		(attr smd)
 		(fp_line
 			(start 5.000001 -5.000002)
 			(end 5.000002 5.000001)
@@ -17310,6 +17310,17 @@
 			(uuid "aba3a4bc-632c-4b69-9a84-1ae3138d76d2")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/asm2464pd-kinda-close-enough.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")

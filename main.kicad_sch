@@ -14903,7 +14903,19 @@
 		)
 	)
 	(rectangle
-		(start 67.31 209.55)
+		(start 114.3 219.71)
+		(end 128.27 259.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 123afa71-70bb-42b3-b1c9-22321357767f)
+	)
+	(rectangle
+		(start 67.945 210.82)
 		(end 79.375 241.3)
 		(stroke
 			(width 0)
@@ -14913,6 +14925,18 @@
 			(type none)
 		)
 		(uuid 4a403b0d-80b3-40e1-8d90-ae5aa477e462)
+	)
+	(rectangle
+		(start 152.4 219.71)
+		(end 166.37 259.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid aa225a12-868c-48c6-944b-78baf3588baf)
 	)
 	(rectangle
 		(start 236.22 187.96)
@@ -14937,6 +14961,17 @@
 			(type none)
 		)
 		(uuid eb98530d-ec95-4107-8d83-7207a41ee0d0)
+	)
+	(text "0201 for USB4"
+		(exclude_from_sim no)
+		(at 114.3 219.075 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "051dd254-6883-4411-88a1-f7b440b0f3bc")
 	)
 	(text "Mystery LED 2"
 		(exclude_from_sim no)
@@ -14972,6 +15007,17 @@
 			)
 		)
 		(uuid "329e4a3e-ed5d-4274-ae8c-09acbdd4a213")
+	)
+	(text "0201 for USB4"
+		(exclude_from_sim no)
+		(at 152.4 219.075 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8e5adfb8-213f-4737-9d48-17593d36888b")
 	)
 	(text "TODO:\n[x] UART header 3V3 GND TX RX\n[x] I2C header 3V3 GND CLK DATA\n[x] SPI header with SPI flash pinout\n[x] Jumper/button for SPI /HOLD\n[x] Jumper/button for ASM RST#\n[ ] CC testpoints\n[ ] add a bunch of decoupling capacitors\n[ ] make sure clkreq works on more-than-x4 cards too (prsnt)"
 		(exclude_from_sim no)
@@ -15051,6 +15097,17 @@
 			)
 		)
 		(uuid "fac014ac-22d2-44ff-90a6-957dc97ee0f2")
+	)
+	(text "0201 for USB4"
+		(exclude_from_sim no)
+		(at 67.945 210.185 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fb125af6-20f7-4a0a-b65d-539869e5d92f")
 	)
 	(text "Ultra-Mystery LED 4"
 		(exclude_from_sim no)
