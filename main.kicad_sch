@@ -19939,7 +19939,7 @@
 	)
 	(global_label "PERST0#"
 		(shape input)
-		(at 212.09 83.82 180)
+		(at 212.09 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19949,7 +19949,7 @@
 		)
 		(uuid "0de1de72-3455-447a-98f0-0aa93201257f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.7592 83.82 0)
+			(at 200.7592 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20115,7 +20115,7 @@
 	)
 	(global_label "PE_WAKE#"
 		(shape input)
-		(at 212.09 81.28 180)
+		(at 212.09 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20125,7 +20125,7 @@
 		)
 		(uuid "146d9271-3e5e-4c3f-805d-cc02b5e6c187")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.4892 81.28 0)
+			(at 199.4892 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20577,7 +20577,7 @@
 	)
 	(global_label "CLKREQ0#"
 		(shape input)
-		(at 212.09 86.36 180)
+		(at 212.09 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20587,7 +20587,7 @@
 		)
 		(uuid "2803fe50-5ace-4343-92c4-74ddfb6b8b1c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.3077 86.36 0)
+			(at 199.3077 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
